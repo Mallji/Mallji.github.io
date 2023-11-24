@@ -24,7 +24,7 @@ Don't forget to add the `me` class to the photo, like this: `![alt](src){:.me}`.
 
 ## 更加了解我
 
-我在[豆瓣读书](https://book.douban.com/people/mallji/)上分享我正在看的书以及想看的书，在 [GitHub](https://github.com/Mallji) 上维护我的代码以及关注开源项目，你还可以在 [Linkedin](https://www.linkedin.com/in/Mallji) 上找到我。
+我在[豆瓣读书](https://book.douban.com/people/mallji/)上分享我正在看的书以及想看的书，在 [GitHub](https://github.com/Mallji) 上维护我的代码以及关注开源项目，你还可以在 [Linkedin](https://www.linkedin.com/in/Mallji) 上找到我。我也在我的[ProcessOn](https://www.processon.com/u/6470bf7ccc72ee05d011e6d3)上更新新画的流程图
 
 
 
