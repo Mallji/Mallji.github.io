@@ -41,7 +41,7 @@ author:
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:          |
-    我是Mallji,如果你觉得本文不错，可略表心意，[请我喝一杯咖啡](https://myanbin.github.io/about.html#buymeacoffee)。
+    我是Mallji,如果你觉得本文不错，[请我喝一杯咖啡](https://myanbin.github.io/about.html#buymeacoffee)。
 
 
 compress_html:
