@@ -27,6 +27,11 @@ C++:
   description: >
     了解C++对于理解计算机有很大帮助
 
+Environment:
+  name: 环境
+  description: >
+    这里是平常出现的一些环境问题
+
 read:
   name: 读书
   image: /public/images/napoleon.jpg
