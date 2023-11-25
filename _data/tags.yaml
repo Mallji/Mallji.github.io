@@ -27,6 +27,16 @@ C++:
   description: >
     了解C++对于理解计算机有很大帮助
 
+Java:
+  name: Java
+  description: >
+    Java是一门面向对象编程语言，不仅吸收了C++语言的各种优点，还摒弃了C++里难以理解的多继承、指针
+
+JUC:
+  name: JUC
+  description: >
+    Java的基本功
+
 Environment:
   name: 环境
   description: >
