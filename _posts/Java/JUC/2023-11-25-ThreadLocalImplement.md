@@ -2,7 +2,7 @@
 layout: post
 title: '线程特有对象ThreadLocal的实现'
 tags: code Java JUC
-image: /public/images/mountains.jpg
+image: /public/images/yunshan.jpg
 ---
 
 
