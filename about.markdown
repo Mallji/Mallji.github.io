@@ -46,6 +46,7 @@ Don't forget to add the `me` class to the photo, like this: `![alt](src){:.me}`.
 
 ## 请我喝一杯咖啡 {#buymeacoffee}
 
-如若阁下觉得本站内容对你有所帮助，通过以下赞赏码来支持本人。此举将激励作者写出更好的文章。
+[//]: # (如若阁下觉得本站内容对你有所帮助，通过以下赞赏码来支持本人。此举将激励作者写出更好的文章。)
 
-![Buy me a coffee](/public/images/buymeacoffee.jpg){:.center}
+[//]: # ()
+[//]: # (![Buy me a coffee]&#40;/public/images/buymeacoffee.jpg&#41;{:.center})
