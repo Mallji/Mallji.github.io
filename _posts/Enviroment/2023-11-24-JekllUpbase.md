@@ -55,7 +55,7 @@ bundle exec jekyll serve
 
 >  打开jekyll为我们创建的项目查看目录结构
 >
-> ![image-20231124081748955](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124081748955.png)
+> ![image-20231124081748955](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124081748955.png)
 >
 > \_config.yml:jekyll站点的总配置文件,可以修改一些全局的配置(站点名称,作者名称等),注意他是个配置文件,存储的是键值对,可以在任意位置读取对应的值(修改了\_config,需要重启站点才能应用新配置)
 >
@@ -79,18 +79,18 @@ bundle exec jekyll serve
 
 在github上找到一个三方主题
 
-![image-20231124084040704](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124084040704.png)
+![image-20231124084040704](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124084040704.png)
 
 clone项目到本地
 
 用编辑器打开查看目录结构
 
-![image-20231124084430318](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124084430318.png)
+![image-20231124084430318](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124084430318.png)
 
 > _include目录:可以理解为模板提供的代码片段,相当于整个博客页面中的小挂件(里面全是供我们使用的页面骨架),我们在使用的时候直接将这个文件夹的东西拿到我们自己的博客站点中即可
 >
 > _sass目录:样式表文件(.config.yml文件中会有如下配置将其转换为css样式)
-> ![image-20231124150625768](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124150625768.png)
+> ![image-20231124150625768](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124150625768.png)
 
 在这个三方项目中打开命令行安装项目的环境
 
@@ -108,7 +108,7 @@ Gemfile中的插件是引入进项目的,_config.yml文件中的plugin是真正�
 
 出现以下错误
 
-![image-20231124085539605](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124085539605.png)
+![image-20231124085539605](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124085539605.png)
 
 需要安装对应的ruby和bundle版本
 
@@ -138,11 +138,11 @@ bundle exec jekyll serve
 
 然后再域名提供商的DNS setting中将所申请的域名与username.gihub.io绑定
 
-![image-20231124115933986](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124115933986.png)
+![image-20231124115933986](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124115933986.png)
 
 在github仓库设置页面中设置Custom domain
 
-![image-20231124120022905](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124120022905.png)
+![image-20231124120022905](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124120022905.png)
 
 # 插件推荐
 
@@ -158,17 +158,17 @@ bundle exec jekyll serve
 
 在项目目录的_includes目录下有许多组件,这些组件可以再别处使用模板引擎被引用
 
-![image-20231124140226869](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124140226869.png)
+![image-20231124140226869](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124140226869.png)
 
 具体使用方法是使用模板引擎语法引用进来
 
-![image-20231124140348976](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124140348976.png)
+![image-20231124140348976](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124140348976.png)
 
 > _layouts目录下全是模板文件,模板文件是用来装饰页面的
 
 _config文件里面定义的都是全局变量,在所有地方都可以引用
 
-![image-20231124140820551](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124140820551.png)
+![image-20231124140820551](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124140820551.png)
 
 >  `site.baseurl`,site代表整个站点,他能读到\_config文件和\_data目录下的文件信息
 >
@@ -176,7 +176,7 @@ _config文件里面定义的都是全局变量,在所有地方都可以引用
 
 使用模板文件
 
-![image-20231124141228583](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124141228583.png)
+![image-20231124141228583](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124141228583.png)
 
 在需要使用的第方加入上面的对应模板文件即可
 
@@ -184,11 +184,11 @@ _post文件夹下的文章名称需要以特定的格式开头
 
 在jekyll解析之后会生成对应的html,而我们可以更改生成html的规则
 
-![image-20231124141656773](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124141656773.png)
+![image-20231124141656773](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124141656773.png)
 
 ## 文章结构
 
-![image-20231124141811916](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124141811916.png)
+![image-20231124141811916](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124141811916.png)
 
 开始的
 
@@ -204,22 +204,22 @@ cover_img: '/'
 
 如果更改头部格式,相应的layouts里面的post模板文件也要做对应的改变
 
-![image-20231124142130740](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124142130740.png)
+![image-20231124142130740](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124142130740.png)
 
 ## 变量
 
-![image-20231124145635464](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124145635464.png)
+![image-20231124145635464](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124145635464.png)
 
-![image-20231124145601984](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124145601984.png)
+![image-20231124145601984](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124145601984.png)
 
-![image-20231124145806827](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124145806827.png)
+![image-20231124145806827](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124145806827.png)
 
-![image-20231124145926673](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124145926673.png)
+![image-20231124145926673](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124145926673.png)
 
-![image-20231124145942782](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124145942782.png)
+![image-20231124145942782](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124145942782.png)
 
 ## liquid语法
 
-![image-20231124150030177](../public/images/Environment/2023-11-24-JekllUpbase/image-20231124150030177.png)
+![image-20231124150030177](../../public/images/Environment/2023-11-24-JekllUpbase/image-20231124150030177.png)
 
 具体过滤器的作用可以查看官方文档
