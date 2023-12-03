@@ -42,6 +42,11 @@ Environment:
   description: >
     这里是平常出现的一些环境问题
 
+Bug:
+  name: Bug
+  description: >
+    这里是平常出现的一些Bug问题
+
 read:
   name: 读书
   image: /public/images/napoleon.jpg
