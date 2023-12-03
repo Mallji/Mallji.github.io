@@ -19,7 +19,7 @@ Don't forget to add the `me` class to the photo, like this: `![alt](src){:.me}`.
 {% endif %}
 
 
-我是<u>Mallji</u>我喜爱学习新技术,喜欢打篮球,看电影,我是 [INFJ](http://www.personalitypage.com/INFJ.html) 性格的人.
+我是<u>Mallji
 
 
 ## 更加了解我
