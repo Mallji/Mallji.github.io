@@ -1,3 +1,10 @@
+---
+layout: post
+title: 'Spring源码环境搭建中遇到的问题'
+tags: Environment
+image: /public/images/sierra.jpg
+---
+
 > 报错:java.nio.file.InvalidPathException: Illegal char <>> [in thread "Connection worker"]
 >
 > 这个错误通常是由于在导入Spring源码时文件路径存在问题引起的。`InvalidPathException` 表示路径非法，可能包含了不允许在文件路径中使用的字符。
